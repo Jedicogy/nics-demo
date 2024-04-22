@@ -1,0 +1,1099 @@
+{
+    "q": [
+        {
+            "group": "盤點自評表 - 未釋出版本",
+            "name": "範本2",
+            "chapters": "3",
+            "questions": "10",
+            "description": "預設範本2",
+            "owner": "System",
+            "create_date": "2024-04-20 12:00:00"
+        },
+        {
+            "group": "盤點自評表 - 釋出版本",
+            "name": "範本3",
+            "chapters": "3",
+            "questions": "10",
+            "description": "預設範本3",
+            "owner": "System",
+            "create_date": "2024-04-20 12:00:00"
+        },
+        {
+            "group": "巡航自評表 - 範本",
+            "name": "範本4",
+            "chapters": "3",
+            "questions": "10",
+            "description": "預設範本4",
+            "owner": "System",
+            "create_date": "2024-04-20 12:00:00"
+        },
+        {
+            "group": "巡航自評表 - 未釋出版本",
+            "name": "範本5",
+            "chapters": "3",
+            "questions": "10",
+            "description": "預設範本5",
+            "owner": "System",
+            "create_date": "2024-04-20 12:00:00"
+        },
+        {
+            "group": "巡航自評表 - 釋出版本",
+            "name": "ISO27001自評表-1",
+            "chapters": "3",
+            "questions": "10",
+            "description": "ISO27001自評表-1",
+            "owner": "System",
+            "create_date": "2024-04-20 12:00:00"
+        },
+        {
+            "group": "ISO27001自評表",
+            "name": "ISO27001自評表-2",
+            "chapters": "3",
+            "questions": "10",
+            "description": "ISO27001自評表-2",
+            "owner": "System",
+            "create_date": "2024-04-20 12:00:00"
+        },
+        {
+            "group": "ISO27001自評表",
+            "name": "ISO27001自評表-3",
+            "chapters": "3",
+            "questions": "10",
+            "description": "ISO27001自評表-3",
+            "owner": "System",
+            "create_date": "2024-04-20 12:00:00"
+        },
+        {
+            "group": "內部資安自評表",
+            "name": "內部資安自評表-1",
+            "chapters": "3",
+            "questions": "10",
+            "description": "內部資安自評表-1",
+            "owner": "System",
+            "create_date": "2024-04-20 12:00:00"
+        },
+        {
+            "group": "設備自評表",
+            "name": "設備自評表-1",
+            "chapters": "3",
+            "questions": "10",
+            "description": "設備自評表-1",
+            "owner": "System",
+            "create_date": "2024-04-20 12:00:00"
+        },
+        {
+            "group": "年度績效自評表",
+            "name": "年度績效自評表-1",
+            "chapters": "3",
+            "questions": "10",
+            "description": "年度績效自評表-1",
+            "owner": "System",
+            "create_date": "2024-04-20 12:00:00"
+        },
+        {
+            "group": "年度績效自評表",
+            "name": "年度績效自評表-2",
+            "chapters": "3",
+            "questions": "10",
+            "description": "年度績效自評表-2",
+            "owner": "System",
+            "create_date": "2024-04-20 12:00:00"
+        },
+        {
+            "group": "年度績效自評表",
+            "name": "年度績效自評表-3",
+            "chapters": "3",
+            "questions": "10",
+            "description": "年度績效自評表-3",
+            "owner": "System",
+            "create_date": "2024-04-20 12:00:00"
+        }
+    ],
+    "questionnaires": [
+        {
+            "group": "巡航自評表 - 範本",
+            "questionnaires": [
+                {
+                    "id": 1,
+                    "name": "巡航自評表 - 易用性範本",
+                    "description": "巡航自評表 - 易用性範本",
+                    "owner": "System",
+                    "create_date": "2024-04-20 12:00:00",
+                    "questions":
+                    [
+                        {
+                            "id": 1,
+                            "title": "前端開發的知識及技能現況 - 評估系統團隊所具備的技能組成",
+                            "group": "前端開發的知識及技能現況",
+                            "question": "您認為您的團隊對於前端開發具備基礎覺識及技能程度如何？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "很差", "name": "很差"},
+                                {"key": "差", "name": "差"},
+                                {"key": "一般", "name": "一般"},
+                                {"key": "良好", "name": "良好"},
+                                {"key": "很好", "name": "很好"}
+                            ],
+                            "file": "",
+                            "ans": "一般",
+                            "tags": ["流程階段:廠商評選"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 2,
+                            "title": "前端開發的知識及技能現況 - 評估系統團隊所具備的技能組成",
+                            "group": "前端開發的知識及技能現況",
+                            "question": "請上傳您的系統團隊人員清單。",
+                            "weights": 4,
+                            "type": "fileupload",
+                            "options": [],
+                            "file": "",
+                            "ans": "一般",
+                            "tags": ["流程階段:廠商評選"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 3,
+                            "title": "前端開發的知識及技能現況 - 辨認可能存在的知識落差或技能落差",
+                            "group": "前端開發的知識及技能現況",
+                            "question": "您認為可能存在的知識或技能落差有哪些？",
+                            "weights": 4,
+                            "type": "textarea",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:廠商評選"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 4,
+                            "title": "健全開發生命週期所需的文件及資源 - 使用設計系統，維持功能、互動、邏輯、使用者流程、體驗、感受的一致性",
+                            "group": "健全開發生命週期所需的文件及資源",
+                            "question": "您的團隊是否正在使用設計系統來維持一致性？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:開發"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 5,
+                            "title": "健全開發生命週期所需的文件及資源 - 使用設計系統，維持功能、互動、邏輯、使用者流程、體驗、感受的一致性",
+                            "group": "健全開發生命週期所需的文件及資源",
+                            "question": "請上傳您的產品設計概要、設計檢核清單、設計風格指引等設計文件。",
+                            "weights": 4,
+                            "type": "fileupload",
+                            "options": [],
+                            "file": "",
+                            "ans": "一般",
+                            "tags": ["流程階段:開發"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 6,
+                            "title": "健全開發生命週期所需的文件及資源 - 使用設計系統，維持功能、互動、邏輯、使用者流程、體驗、感受的一致性",
+                            "group": "健全開發生命週期所需的文件及資源",
+                            "question": "您的團隊是否定期審查和更新設計系統？",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:開發"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 7,
+                            "title": "健全開發生命週期所需的文件及資源 - 維護開發實作資源，改良及重用介面元件",
+                            "group": "健全開發生命週期所需的文件及資源",
+                            "question": "您的團隊是否有使用介面元件庫？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:開發"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 8,
+                            "title": "健全開發生命週期所需的文件及資源 - 維護開發實作資源，改良及重用介面元件",
+                            "group": "健全開發生命週期所需的文件及資源",
+                            "question": "請提供您的元件庫參考連結。",
+                            "weights": 4,
+                            "type": "link",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:開發"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 9,
+                            "title": "健全開發生命週期所需的文件及資源 - 維護開發實作資源，改良及重用介面元件",
+                            "group": "健全開發生命週期所需的文件及資源",
+                            "question": "您的團隊是否有制定介面元件的改良和重用策略？",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:開發"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 10,
+                            "title": "健全開發生命週期所需的文件及資源 - 維護開發實作資源，改良及重用介面元件",
+                            "group": "健全開發生命週期所需的文件及資源",
+                            "question": "您的缺陷管理系統是否明確設置了無障礙相關缺陷類別？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:開發"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 11,
+                            "title": "健全開發生命週期所需的文件及資源 - 維護開發實作資源，改良及重用介面元件",
+                            "group": "健全開發生命週期所需的文件及資源",
+                            "question": "您的團隊是否定期審查和處理無障礙相關缺陷？",
+                            "weights": 4,
+                            "type": "link",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:開發"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 12,
+                            "title": "健全開發生命週期所需的文件及資源 - 維護開發實作資源，改良及重用介面元件",
+                            "group": "健全開發生命週期所需的文件及資源",
+                            "question": "您的缺陷管理系統是否提供了無障礙相關缺陷的報告和統計？",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:開發"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 13,
+                            "title": "對系統使用者提供支持機制 - 公開提供無障礙宣告，說明有哪些機制（系統內及系統外）可支持使用者的無障礙相關問題",
+                            "group": "對系統使用者提供支持機制",
+                            "question": "您的系統是否提供無障礙宣告？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:上線", "流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 14,
+                            "title": "對系統使用者提供支持機制 - 公開提供無障礙宣告，說明有哪些機制（系統內及系統外）可支持使用者的無障礙相關問題",
+                            "group": "對系統使用者提供支持機制",
+                            "question": "請上傳您的無障礙宣告內容。",
+                            "weights": 4,
+                            "type": "fileupload",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:上線", "流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 15,
+                            "title": "對系統使用者提供支持機制 - 公開提供無障礙宣告，說明有哪些機制（系統內及系統外）可支持使用者的無障礙相關問題",
+                            "group": "對系統使用者提供支持機制",
+                            "question": "您的系統內外是否提供了支援使用者無障礙相關問題的機制？？",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:上線", "流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 16,
+                            "title": "對系統使用者提供支持機制 - 在常見問答集或說明主題中，涵蓋無障礙方面的提問及回答",
+                            "group": "對系統使用者提供支持機制",
+                            "question": "您的系統的常見問答集或說明內容是否包含無障礙方面的提問及回答？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:上線", "流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 17,
+                            "title": "對系統使用者提供支持機制 - 在常見問答集或說明主題中，涵蓋無障礙方面的提問及回答",
+                            "group": "對系統使用者提供支持機制",
+                            "question": "請上傳您的常見問答集或說明內容。",
+                            "weights": 4,
+                            "type": "fileupload",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:上線", "流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 18,
+                            "title": "對系統使用者提供支持機制 - 在常見問答集或說明主題中，涵蓋無障礙方面的提問及回答",
+                            "group": "對系統使用者提供支持機制",
+                            "question": "您的團隊是否定期更新常見問答集或說明內容中的無障礙相關問題？",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:上線", "流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 19,
+                            "title": "傳播無障礙設計的基本資訊 - 在資通系統公開易顯處，表彰系統開發團隊達成的無障礙設計基準",
+                            "group": "傳播無障礙設計的基本資訊",
+                            "question": "您的系統是否提供資通系統無障礙檢測報告？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:上線", "流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 20,
+                            "title": "傳播無障礙設計的基本資訊 - 在資通系統公開易顯處，表彰系統開發團隊達成的無障礙設計基準",
+                            "group": "傳播無障礙設計的基本資訊",
+                            "question": "請上傳您的無障礙檢測報告。",
+                            "weights": 4,
+                            "type": "fileupload",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:上線", "流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 21,
+                            "title": "傳播無障礙設計的基本資訊 - 在資通系統公開易顯處，表彰系統開發團隊達成的無障礙設計基準",
+                            "group": "傳播無障礙設計的基本資訊",
+                            "question": "您的系統是否在易顯處表彰系統開發團隊達成的無障礙設計基準？",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:上線", "流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 22,
+                            "title": "採購無障礙的資通服務或元件 - 招標採購政策明示投標供應商應自主發展無障礙成熟度",
+                            "group": "採購無障礙的資通服務或元件",
+                            "question": "招標採購政策中是否明示投標供應商應自主發展無障礙成熟度？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:RFP", "流程階段:驗收"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 23,
+                            "title": "採購無障礙的資通服務或元件 - 招標採購政策明示投標供應商應自主發展無障礙成熟度",
+                            "group": "採購無障礙的資通服務或元件",
+                            "question": "請提供相關產品或勞務契約採購的相關計畫或辦法。",
+                            "weights": 4,
+                            "type": "fileupload",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:RFP", "流程階段:驗收"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 24,
+                            "title": "採購無障礙的資通服務或元件 - 招標採購政策明示投標供應商應自主發展無障礙成熟度",
+                            "group": "採購無障礙的資通服務或元件",
+                            "question": "您的團隊是否積極參與招標採購政策的制定和審查？",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:RFP", "流程階段:驗收"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 25,
+                            "title": "採購無障礙的資通服務或元件 - 招標採購契約包含明確的無障礙需求規格",
+                            "group": "採購無障礙的資通服務或元件",
+                            "question": "您的招標採購契約是否包含明確的無障礙需求規格？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:RFP", "流程階段:驗收"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 26,
+                            "title": "採購無障礙的資通服務或元件 - 招標採購契約包含明確的無障礙需求規格",
+                            "group": "採購無障礙的資通服務或元件",
+                            "question": "請描述您如何以行政手段支持採購無障礙的資通服務或元件。",
+                            "weights": 4,
+                            "type": "textarea",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:RFP", "流程階段:驗收"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 27,
+                            "title": "採購無障礙的資通服務或元件 - 招標採購契約包含明確的無障礙需求規格",
+                            "group": "採購無障礙的資通服務或元件",
+                            "question": "請上傳您的契約內容、招標文件或投標計分規則。",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:RFP", "流程階段:驗收"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 28,
+                            "title": "採購無障礙的資通服務或元件 - 投標計分規則包含 供應商無障礙履約能力面向的配分",
+                            "group": "採購無障礙的資通服務或元件",
+                            "question": "您的招標採購契約及評比方式是否有助於篩選供應商的無障礙履約能力？",
+                            "weights": 5,
+                            "type": "fileupload",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:RFP", "流程階段:驗收"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 29,
+                            "title": "採購無障礙的資通服務或元件 - 投標計分規則包含 供應商無障礙履約能力面向的配分",
+                            "group": "採購無障礙的資通服務或元件",
+                            "question": "請描述您的供應商能力評核指標或投標計分記錄。",
+                            "weights": 4,
+                            "type": "textarea",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:RFP", "流程階段:驗收"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 30,
+                            "title": "採購無障礙的資通服務或元件 - 投標計分規則包含 供應商無障礙履約能力面向的配分",
+                            "group": "採購無障礙的資通服務或元件",
+                            "question": "您是否定期審查並更新供應商的無障礙履約能力評估機制？",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:RFP", "流程階段:驗收"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        }
+
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "巡航自評表 - 可維護性範本",
+                    "description": "巡航自評表 - 可維護性範本",
+                    "owner": "System",
+                    "create_date": "2024-04-20 12:00:00",
+                    "questions": [
+                        {
+                            "id": 1,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "您對系統需求的掌握程度如何？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "很差", "name": "很差"},
+                                {"key": "差", "name": "差"},
+                                {"key": "一般", "name": "一般"},
+                                {"key": "良好", "name": "良好"},
+                                {"key": "很好", "name": "很好"}
+                            ],
+                            "file": "",
+                            "ans": "一般",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 2,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "請上傳需求說明書或其他相關文件。",
+                            "weights": 4,
+                            "type": "fileupload",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 3,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "您的系統是否有清楚的系統主要角色分類和關鍵使用路徑圖？",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 4,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "您對系統外部依賴的掌握程度如何？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "很差", "name": "很差"},
+                                {"key": "差", "name": "差"},
+                                {"key": "一般", "name": "一般"},
+                                {"key": "良好", "name": "良好"},
+                                {"key": "很好", "name": "很好"}
+                            ],
+                            "file": "",
+                            "ans": "一般",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 5,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "請上傳外部依賴清冊。",
+                            "weights": 4,
+                            "type": "fileupload",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 6,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "您的系統是否明確載明了外部依賴的用途和授權？",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 7,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "您對系統資料的掌握程度如何？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "很差", "name": "很差"},
+                                {"key": "差", "name": "差"},
+                                {"key": "一般", "name": "一般"},
+                                {"key": "良好", "name": "良好"},
+                                {"key": "很好", "name": "很好"}
+                            ],
+                            "file": "",
+                            "ans": "一般",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 8,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "請上傳資料表說明文件或其他相關資料。",
+                            "weights": 4,
+                            "type": "fileupload",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 9,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "您的系統是否有記錄重要資料的變更存取紀錄？",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 10,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "您對系統架構的掌握程度如何？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "很差", "name": "很差"},
+                                {"key": "差", "name": "差"},
+                                {"key": "一般", "name": "一般"},
+                                {"key": "良好", "name": "良好"},
+                                {"key": "很好", "name": "很好"}
+                            ],
+                            "file": "",
+                            "ans": "一般",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 11,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "請上傳系統架構圖或其他相關文件。",
+                            "weights": 4,
+                            "type": "fileupload",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 12,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "您的系統是否有清晰的API文件和系統變更紀錄？",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 13,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "您對相關人員（需求、系統管理）角色的掌握程度如何？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "很差", "name": "很差"},
+                                {"key": "差", "name": "差"},
+                                {"key": "一般", "name": "一般"},
+                                {"key": "良好", "name": "良好"},
+                                {"key": "很好", "name": "很好"}
+                            ],
+                            "file": "",
+                            "ans": "一般",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 14,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "請上傳相關人員角色清冊。",
+                            "weights": 4,
+                            "type": "fileupload",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 15,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "您的團隊是否有明確的人員負責分工和職責說明？",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 16,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "您對系統程式碼的掌握程度如何？",
+                            "weights": 5,
+                            "type": "radio",
+                            "options": [
+                                {"key": "很差", "name": "很差"},
+                                {"key": "差", "name": "差"},
+                                {"key": "一般", "name": "一般"},
+                                {"key": "良好", "name": "良好"},
+                                {"key": "很好", "name": "很好"}
+                            ],
+                            "file": "",
+                            "ans": "一般",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 17,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "請上傳程式碼庫或軟體更新日誌查詢連結。",
+                            "weights": 4,
+                            "type": "link",
+                            "options": [],
+                            "file": "",
+                            "ans": "",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        },
+                        {
+                            "id": 18,
+                            "title": "需求掌握程度",
+                            "group": "需求掌握程度",
+                            "question": "您的團隊是否有定期審查和更新程式碼？",
+                            "weights": 4,
+                            "type": "radio",
+                            "options": [
+                                {"key": "是", "name": "是"},
+                                {"key": "否", "name": "否"}
+                            ],
+                            "file": "",
+                            "ans": "是",
+                            "tags": ["流程階段:維運"],
+                            "reference": {
+                                "link": "https://www.nics.nat.gov.tw/",
+                                "desc": "參考連結"
+                            },
+                            "tmpAnsOption": ""
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ],
+    "questionnaire_group": [
+        {
+            "name": "盤點自評表 - 範本",
+            "icon": "pi pi-folder",
+            "size": "0"
+        }, 
+        {
+            "name": "盤點自評表 - 未釋出版本",
+            "icon": "pi pi-folder",
+            "size": "0"
+        },
+        {
+            "name": "盤點自評表 - 釋出版本",
+            "icon": "pi pi-folder",
+            "size": "0"
+        },
+        {
+            "name": "巡航自評表 - 範本",
+            "icon": "pi pi-folder",
+            "size": "2"
+        },
+        {
+            "name": "巡航自評表 - 未釋出版本",
+            "icon": "pi pi-folder",
+            "size": "0"
+        },
+        {
+            "name": "巡航自評表 - 釋出版本",
+            "icon": "pi pi-folder",
+            "size": "0"
+        }
+    ]
+}
